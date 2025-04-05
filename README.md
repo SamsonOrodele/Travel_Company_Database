@@ -100,6 +100,7 @@ FROM EMP E
 JOIN SCHEDULE S ON E.EMP_ID = S.VEHICLE_ID
 WHERE E.DESIGNATION = 'DRIVER';
 
+
 ## ⚙️ How to Run
 
 1. **Set up Oracle DB Environment:**  
